@@ -1,0 +1,12 @@
+**/.idea/**
+*.iml
+*.iws
+*.ipr
+**/build/**
+**/out/**
+**/install/**
+*.project
+*.classpath
+**/.settings/**
+*.log
+**/target/**
