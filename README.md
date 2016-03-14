@@ -4,6 +4,10 @@ Design and Constraints
 2.  Consumers of the blocking queues take from queue and put to new TypeSpecific target queue
 3.  Consumers of type specific queue merge 2 typespecific target queues and creates the Pair of data. This pair can then be fed to any Loader which can process this.
 4.  MainTest class tests the process with 2 filestreams ( FileStreams are a test implementation of stream for unit test purposes)
+5.  Currently the program runs in an endles while loop. Proper shutdown mechanisms have to be implemented.(Persistence/clearing of buffers etc)
+
+
+
 
 
 Constraints
